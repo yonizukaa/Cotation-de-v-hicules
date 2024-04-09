@@ -1,0 +1,32 @@
+<div class="container">
+    <section class="sidebar">
+      <h2>Cotations</h2>
+      <ul>
+        image
+        
+      </ul>
+    </section>
+  
+    <section class="main-content">
+      <div class="message">
+        <h1>Gros Message</h1>
+      </div>
+      <div class="form">
+        <form>
+          <input type="text" placeholder="Entrez votre message">
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+    </section>
+  
+    <section class="dropdown">
+        <h1>Cotations</h1>
+      <ul class="menu"*ngFor="let c of cotations$ | async">
+        {{c.customerId}}
+        <li class="text" >
+            {{ c.message }} 
+          </li>
+      </ul>
+    </section>
+  </div>
+  

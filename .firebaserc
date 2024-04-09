@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cotation-de-vehicule": {
+      "hosting": {
+        "foquotation": [
+          "foquotation-web-app"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cotation-de-vehicule"
+  }
+}
